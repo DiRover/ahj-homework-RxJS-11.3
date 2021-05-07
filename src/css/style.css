@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.container {
+    width: 30%;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.current-project {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.task, .state {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 2rem;
+    padding: 2px;
+    margin-bottom: -1px;
+}
+
+.cycle {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 80%;
+    cursor: pointer;
+}
+
+.state-list {
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+}
+
+.state-select {
+    border: 1px solid black;
+    padding: 3px;
+    margin-bottom: -1px;
+}
+
+.hidden {
+    display: none;
+}
+
+.invisible {
+    visibility: hidden;
+}
